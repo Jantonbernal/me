@@ -12586,13 +12586,19 @@ textarea.form-control {
 
 @media (max-width: 426px) {
   .mouse {
-      bottom: 63px;
+    bottom: 63px;
+  }
+  .project .overlay{
+    border: 3px solid #171616 !important;
+  }
+  .project .overlay{
+    opacity: 0.5 !important;
   }
 }
 
 @media (max-width: 769px) {
   .mouse {
-      bottom: 16px;
+    bottom: 16px;
   }
   .center-icons{
     display: flex;
